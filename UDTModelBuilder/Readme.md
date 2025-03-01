@@ -1,4 +1,4 @@
-##Converts a PLC UDT Array to a model that can be used by data grids, combo boxes, and list boxes
+## Converts a PLC UDT Array to a model that can be used by data grids, combo boxes, and list boxes
 
 -The Model property of Data Grids, List Boxes, and Comboboxes do not directly support a UDT array from the PLC.
 -The lightweight Netlogic script in this example converts the UDT array into a object model that can be used in Optix.
