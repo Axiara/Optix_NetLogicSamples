@@ -2,10 +2,10 @@
 
 Send automated email from a **FactoryTalk Optix** HMI using **Microsoft Graph** with OAuth 2.0 **client credentials**. This NetLogic class (`OAuthEmailSenderGraph`) acquires an app-only access token and posts a `sendMail` request to Microsoft Graph, optionally including a file attachment.
 
-> **What this is:** A self‑contained C# NetLogic for FT Optix that:
->
-> 1. gets an app-only token from your tenant’s `/oauth2/v2.0/token` endpoint, and
-> 2. calls `POST /v1.0/users/{sender}/sendMail` with a JSON payload that supports **fileAttachment**. ([Microsoft Learn][1], [Microsoft Learn][2], [Microsoft Learn][3])
+ **What this is:** A self‑contained C# NetLogic for FT Optix that:
+
+ 1. gets an app-only token from your tenant’s `/oauth2/v2.0/token` endpoint, and
+ 2. calls `POST /v1.0/users/{sender}/sendMail` with a JSON payload that supports **fileAttachment**. ([Microsoft Learn][1], [Microsoft Learn][2], [Microsoft Learn][3])
 
 ---
 
