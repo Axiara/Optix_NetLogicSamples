@@ -92,7 +92,7 @@ Issues and PRs are welcome—especially additional Optix NetLogic patterns (e.g.
 
 ## License
 
-This repository is licensed under the **MIT License** (see `LICENSE`).
+This repository is licensed under the **GNU General Public License v3.0** (see `LICENSE`).
 
 ---
 
